@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>my first file html</title>
+    <style>
+        body{
+            
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        strong{
+            background-color: rgb(182, 120, 130);
+        }
+    </style>
+
+</head>
+<body>
+    <p><strong>choose background</strong> </p>
+   
+    <form> 
+        <input type="radio"  id="checkBlack" name="team" />  Black <br>
+        <input type="radio"  id="checkRed" name="team"/>    Red   <br>
+        <input type="radio"  id="checkGreen" name="team"/>  Green <br>
+
+        <input type="button" id="colorBackground" value="change" onclick="showChoose()" />
+    </form>
+    
+<script src="./funct.js">  </script>
+
+</body>
+</html>
