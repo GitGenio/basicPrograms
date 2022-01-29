@@ -10,7 +10,7 @@ d.width=1200; // width of field to draw
 d.height=600;
 var lienzo = d.getContext("2d");
 
-document.addEventListener("keyup",drawkey);
+document.addEventListener("keydown",drawkey);
 
 function linea(xInicial,yInicial,xFinal,yFinal){
     lienzo.moveTo(xInicial,yInicial);  // donde empieza la linea
